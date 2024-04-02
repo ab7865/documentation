@@ -5,8 +5,9 @@ Building blocks
 ===============
 
 Building blocks let you design your website quickly by dragging and dropping them onto your web
-pages. Four types of building blocks are available depending on their use: :guilabel:`Structure`,
-:guilabel:`Features`, :guilabel:`Dynamic Content`, and :guilabel:`Inner Content`.
+pages. Four types of building blocks are available depending on their use:
+:doc:`Structure <building_blocks/structure>`, :guilabel:`Features`, :doc:`Dynamic Content
+<building_blocks/dynamic_content>`, and :doc:`Inner Content <building_blocks/inner_content>`.
 
 .. seealso::
    `Odoo Tutorial: Design your first webpage <https://www.odoo.com/slides/slide/design-your-first-web-page-1667?fullscreen=1>`_
@@ -36,9 +37,12 @@ configuration.
 Layout: grid and columns
 ========================
 
-You can choose between two layout styles for most building blocks: grid or columns (cols). To
-change the default layout, go to the :guilabel:`Customize` tab. Under the :guilabel:`Banner`
-section, select :guilabel:`Grid` or :guilabel:`Cols` as the :guilabel:`Layout`.
+You can choose between two layout styles for most building blocks: :ref:`grid
+<building_blocks/grid>` or :ref:`columns (cols) <building_blocks/cols>`. To change the default
+layout, go to the :guilabel:`Customize` tab. Under the :guilabel:`Banner` section, select
+:guilabel:`Grid` or :guilabel:`Cols` as the :guilabel:`Layout`.
+
+.. _building_blocks/grid:
 
 Grid
 ----
@@ -55,18 +59,21 @@ dragging and dropping them.
    .. image:: building_blocks/superimpose-images-to-text.png
       :alt: Positioning an image behind text
 
+.. _building_blocks/cols:
+
 Cols
 ----
 
 Choosing the :guilabel:`Cols` layout allows you to determine the number of elements per line within
 the block.
 
-.. image:: building_blocks/elements-per-line.png
-   :alt: Setting the number columns
+By default, **on mobile devices**, one element is visible to ensure that content remains easily
+readable and accessible on smaller screens. You can adjust this value by clicking the
+:icon:`fa-mobile` (:guilabel:`mobile icon`) at the top of the website editor, selecting the block to
+modify, clicking the :guilabel:`Cols` :guilabel:`Layout`, and adjusting the number.
 
-.. note::
-   On mobile devices, only one element per column is used by default for better visibility. You can
-   adjust this value by using the :guilabel:`Mobile Preview` mode.
+.. image:: building_blocks/cols.png
+   :alt: Adjust the number of images per column on mobile view.
 
 Duplicating a building block
 ============================
@@ -88,7 +95,23 @@ You can also use the drag-and-drop icon to move a block manually.
 .. image:: building_blocks/reordering-blocks.png
    :alt: Reordering building blocks
 
-.. _blocks/visibility:
+Saving a custom building block
+==============================
+
+You can save a customized building block and reuse it elsewhere. To do so, select it, navigate to
+the :guilabel:`Customize` tab, and click the :icon:`fa-floppy-o` (:guilabel:`floppy disk`) icon to
+save it.
+
+.. image:: building_blocks/saving-custom-block.png
+   :alt: Saving a building block
+
+Saved building blocks are available in the :guilabel:`Custom` section of the :guilabel:`Blocks` tab.
+Click the :icon:`fa-pencil` (:guilabel:`pen`) icon to edit their name.
+
+.. image:: building_blocks/custom-blocks.png
+   :alt: Custom section with saved building blocks
+
+.. _building_blocks/visibility:
 
 Visibility
 ==========
@@ -104,8 +127,8 @@ hide, and in the :guilabel:`Customize` tab, scroll down to :guilabel:`Visibility
    :alt: Click the "show/hide on mobile" icons to show or hide some elements on mobile.
 
 .. tip::
-   Click the phone icon at the top of the configurator to preview how your website would look on a
-   mobile device.
+   Click the :icon:`fa-mobile` (:guilabel:`mobile`) icon at the top of the configurator to preview
+   how your website would look on a mobile device.
 
    .. image:: building_blocks/phone-icon.png
       :alt: Mobile phone preview icon
@@ -128,20 +151,18 @@ Depending on the visibility settings, some elements can become hidden from your 
 make a building block visible again, go to the :guilabel:`Invisible Elements` section at the bottom
 of the configurator and select a building block.
 
-Saving a custom building block
-==============================
+Mobile view customization
+=========================
 
-You can save a customized building block and reuse it elsewhere. To do so, select it, navigate to
-the :guilabel:`Customize` tab, and click the floppy disk icon to save it.
+To tailor the mobile view of your website, you can edit the :ref:`Cols <building_blocks/cols>` and
+:ref:`Visibility <building_blocks/visibility>` features without any impact on the desktop view. To
+do so, open the website editor, click the :icon:`fa-mobile` (:guilabel:`mobile`) icon at the top,
+select an element of your building block, and go to the :guilabel:`Customize` tab.
 
-.. image:: building_blocks/saving-custom-block.png
-   :alt: Saving a building block
-
-Saved building blocks are available in the :guilabel:`Custom` section of the :guilabel:`Blocks` tab.
-Click the pen icon to edit their name.
-
-.. image:: building_blocks/custom-blocks.png
-   :alt: Custom section with saved building blocks
+You can also change the order of the elements of a block on mobile. To do so, open the website
+editor, click the :icon:`fa-mobile` (:guilabel:`mobile`) icon at the top, select an element of your
+building block, and click the :icon:`fa-angle-left` :icon:`fa-angle-right`
+(:guilabel:`left/right arrow`) icons to reorder the elements.
 
 .. toctree::
    :titlesonly:

@@ -8,7 +8,31 @@ the work of your cashiers.
 .. important::
    - Odoo only supports the **Point Smart** payment terminal that can be purchased on `Mercado
      Pago's website <https://www.mercadopago.com.mx/herramientas-para-vender/lectores-point>`_.
-   - Point Smart can only be used in LATAM (Latin America) countries.
+   - Point Smart can only be used in :abbr:`LATAM (Latin America)` countries. The following countries are
+     supported:
+
+     - Argentina
+     - Brasil
+     - Chile
+     - Colombia
+     - México
+     - Perú
+     - Uruguay
+
+.. raw:: html
+
+    <embed>
+
+        <p style="color:#CD5C5C;"> <b> --> ASK MOOL: liste exhaustive? </b> </p>
+
+        <p> <a href="http://lanic.utexas.edu/subject/countries/"> Car Google dit: The United Nations
+        recognizes 33 Latin American countries. They are: Mexico,
+        Guatemala, Honduras, Nicaragua, El Salvador, Costa Rica, Panama, Belize, Haiti, Cuba, Dominican
+        Republic, Jamaica, Trinidad & Tobago, Bahams, Barbados, St. Lucia, Grenada, St. Vincent &
+        Grenadines, Antigua & Barbuda, Dominica, St </a>
+        </p>
+
+    </embed>
 
 .. seealso::
    - `Mercado Pago online payment <https://www.mercadopago.com.mx/herramientas-para-vender/check-out#benefits-checkout>`_
@@ -98,7 +122,7 @@ by `/pos_mercado_pago/notification` (e.g., `https://www.myshop.com/pos_mercado_p
 
 .. _mercado_pago/method:
 
-Configure the Payment Method
+Configure the payment method
 ----------------------------
 
 Enable the payment terminal :ref:`in the application settings <configuration/settings>` and
@@ -136,9 +160,9 @@ Successful`.
    - To cancel the payment request, click on :guilabel:`cancel`.
 
 .. important::
-   Proceed with the payment on the terminal, whatever the action taken on the terminal you **MUST**
-   receive a notification on the PoS interface, see Troubleshooting section in case of missing
-   notification
+   Any action made on the terminal should trigger a notification on the POS interface. If you do not
+   receive any notification, ensure the :ref:`webhook secret key <mercado_pago/webhook>` is
+   correctly configured.
 
 .. raw:: html
 
@@ -147,24 +171,3 @@ Successful`.
         <p style="color:#CD5C5C;"> <b> --> ASK MOOL </b></p>
 
     </embed>
-
-Troubleshooting
-===============
-
-#. When configuring the payment method, on save you get the message:
-
-   - **Invalid Operation** Please verify your production user token as it was rejected"
-     - You misspelled the token or you took the wrong one
-   - **Invalid Operation** The terminal serial number is not registered on Mercado Pago"
-
-     - You misspelled the terminal serial number or you took the wrong one, a serial number is only
-       composed of digits
-
-#. Can't add your payment method in :menuselection:`Configuration --> Settings --> Payment`:
-
-   - Please close all open sessions before trying to add/delete a payment method
-#. No notifications received on the PoS interface:
-
-   - This is likely a misspelled webhook secret key entered in your payment method configuration or the
-     **Set the production URL field** in :ref:`mercado_pago/credentials` doesn't contains the right url
-

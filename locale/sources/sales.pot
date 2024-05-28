@@ -8,7 +8,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-04-29 10:38+0000\n"
+||||||| parent of c2d81ac25 (temp)
+"POT-Creation-Date: 2024-04-29 08:05+0000\n"
+=======
+"POT-Creation-Date: 2024-05-28 08:57+0000\n"
+>>>>>>> c2d81ac25 (temp)
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2364,9 +2370,17 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods.rst:25
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/adyen.rst:84
+<<<<<<< HEAD
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:49
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:63
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:81
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:49
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:76
+=======
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:50
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:76
+>>>>>>> c2d81ac25 (temp)
 msgid "Once the payment method is created, you can select it in your POS settings. To do so, go to the :ref:`POS' settings <configuration/settings>`, click :guilabel:`Edit`, and add the payment method under the :guilabel:`Payments` section."
 msgstr ""
 
@@ -2511,10 +2525,18 @@ msgid "Click :guilabel:`Save` at the bottom of the screen to save changes."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/adyen.rst:73
+<<<<<<< HEAD
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:40
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:53
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/stripe.rst:22
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:72
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:40
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:67
+=======
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:41
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:67
+>>>>>>> c2d81ac25 (temp)
 msgid "Configure the payment method"
 msgstr ""
 
@@ -2527,10 +2549,18 @@ msgid "Finally, fill in the mandatory fields with your :ref:`Adyen API key <adye
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/adyen.rst:89
+<<<<<<< HEAD
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:54
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/six.rst:68
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/stripe.rst:93
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:96
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:54
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:91
+=======
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:55
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:91
+>>>>>>> c2d81ac25 (temp)
 msgid "Pay with a payment terminal"
 msgstr ""
 
@@ -2563,13 +2593,11 @@ msgid "Connecting a payment terminal allows you to offer a fluid payment flow to
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:9
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:9
-msgid "Worldline payment terminals require an :doc:`IoT Box </applications/general/iot>`."
+msgid "Ingenico payment terminals require an :doc:`IoT Box </applications/general/iot>`."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:10
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:10
-msgid "Worldline is currently only available in Belgium, the Netherlands and Luxembourg."
+msgid "Ingenico is currently only available in Belgium, the Netherlands and Luxembourg."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:11
@@ -2582,42 +2610,62 @@ msgid "Connect an IoT Box"
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:20
-msgid "Connecting an Ingenico Payment Terminal to Odoo is a feature that requires an IoT Box. For more information on how to connect an IoT Box to your database, please refer to the :doc:`IoT documentation </applications/general/iot/config/connect>`."
+msgid "Connecting an Ingenico payment terminal to Odoo is a feature that requires an IoT Box. For more information on how to connect an IoT Box to your database, please refer to the :doc:`IoT documentation </applications/general/iot/config/connect>`."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:26
-msgid "Configure the Lane/5000 for Ingenico BENELUX"
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:25
+msgid "Configure the Lane/Desk/Move 5000 terminals for Ingenico BENELUX"
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:28
-msgid "Click on the F button of the terminal, then go in the :menuselection:`PoS Menu --> Settings` and enter the settings password."
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:27
+msgid "Press the function button (:guilabel:`F` on Lane/5000, :guilabel:`⦿` on Desk/5000 and Move/5000)."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:29
+msgid "Go to :menuselection:`Kassa menu --> Settings Menu` and enter the settings password."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:30
+msgid "Select :guilabel:`Change Connection` and press :guilabel:`OK` on the next screen."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:31
-msgid "Now, click on connection change and TCP/IP. Type the IP of your *IoT Box* (you can find it on the form view of your IoT Box). Then, enter 9000 as port. The terminal will restart. Once it is done, go on your *IoT Box* form in Odoo and verify that the terminal has been found."
+msgid "Select :guilabel:`TCP/IP` and :guilabel:`IP-address`."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:42
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:32
+msgid "On the next screen, enter the IP address of your IoT Box."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:33
+msgid "Enter `9000` as port number and press :guilabel:`OK` on the next screen."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:35
+msgid "At this point, the terminal restarts and should be displayed in your IoT Box form in Odoo."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:43
 msgid "Enable the payment terminal :ref:`in the application settings <configuration/settings>` and :doc:`create the related payment method <../../payment_methods>`. Set the journal type as :guilabel:`Bank` and select :guilabel:`Ingenico` in the :guilabel:`Use a Payment Terminal` field. Then, select your terminal device in the :guilabel:`Payment Terminal Device` field."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:56
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:57
 msgid "In your *PoS interface*, when processing a payment, select a *Payment Method* using a payment terminal. Check that the amount in the tendered column is the one that has to be sent to the payment terminal and click on *Send*. When the payment is successful, the status will change to *Payment Successful*."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:65
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:66
 msgid "If you want to cancel the payment request, click on cancel. You can still retry to send the payment request."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:68
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:69
 msgid "If there is any issue with the payment terminal, you can still force the payment using the *Force Done*. This will allow you to validate the order in Odoo even if the connection between the terminal and Odoo has issues."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:74
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:75
 msgid "This option will only be available if you received an error message telling you the connection failed."
 msgstr ""
 
-#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:77
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/ingenico.rst:78
 msgid "Once your payment is processed, on the payment record, you’ll find the type of card that has been used and the transaction ID."
 msgstr ""
 
@@ -2904,6 +2952,14 @@ msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:3
 msgid "Worldline"
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:9
+msgid "Worldline payment terminals require an :doc:`IoT Box </applications/general/iot>`."
+msgstr ""
+
+#: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:10
+msgid "Worldline is currently only available in Belgium, the Netherlands and Luxembourg."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/payment_methods/terminals/worldline.rst:11
@@ -4535,6 +4591,7 @@ msgstr ""
 msgid "**Gift Wrapping**"
 msgstr ""
 
+<<<<<<< HEAD
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:48
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:59
 msgid "Handled by Amazon."
@@ -4542,8 +4599,20 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:48
 msgid "Cost is computed by Amazon, and included in the synchronized order. Gift message is added on a line of the order and on the delivery order. Then it is up to the user."
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:55
+msgid "Supported Marketplaces"
 msgstr ""
 
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:57
+msgid "The Amazon Connector currently supports 9 marketplaces. If a marketplace is not listed below, it may be possible for you to :ref:`add it as an unsupported marketplace <amazon/add-unsupported-marketplace>`."
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:53
+msgid "As of February 19, 2024, in North American marketplaces, :abbr:`FBA (Fulfilled by Amazon)` orders created with the *Amazon Connector*, do not get the customer's name passed onto the sales/delivery order in Odoo. This is due to the fact that Amazon now calculates, and remits, sales tax on behalf of sellers. In other words, personally identifiable customer information is not transmitted to the seller any longer, after a :abbr:`FBA (Fulfilled by Amazon)` order."
+>>>>>>> c2d81ac25 (temp)
+msgstr ""
+
+<<<<<<< HEAD
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:54
 msgid "**Stock Management**"
 msgstr ""
@@ -4562,34 +4631,221 @@ msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:59
 msgid "Send by Amazon, based on delivery status synchronized from Odoo."
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:62
+msgid "**North America region**"
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:62
+msgid "Supported Marketplaces"
 msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:64
-msgid "The Amazon Connector is designed to synchronize the data of sales orders. Other actions, such as downloading monthly fees reports, handling disputes, or issuing refunds, **must** be managed from the *Amazon Seller Central*, as usual."
+msgid "The *Amazon Connector* currently supports 9 marketplaces. If a marketplace is not listed below, it may be possible for you to :ref:`add it as an unsupported marketplace <amazon/add-unsupported-marketplace>`."
 msgstr ""
 
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:69
+msgid "**North America region**"
+>>>>>>> c2d81ac25 (temp)
+msgstr ""
+
+<<<<<<< HEAD
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:64
+msgid "The Amazon Connector is designed to synchronize the data of sales orders. Other actions, such as downloading monthly fees reports, handling disputes, or issuing refunds, **must** be managed from the *Amazon Seller Central*, as usual."
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:64
+msgid "Canada"
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:71
+msgid "Canada"
+>>>>>>> c2d81ac25 (temp)
+msgstr ""
+
+<<<<<<< HEAD
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:71
 msgid "Supported marketplaces"
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:64
+msgid "Amazon.ca"
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:71
+msgid "Amazon.ca"
+>>>>>>> c2d81ac25 (temp)
 msgstr ""
 
+<<<<<<< HEAD
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:73
 msgid "The Amazon Connector supports all the current marketplaces."
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:66
+msgid "Mexico"
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:73
+msgid "Mexico"
+>>>>>>> c2d81ac25 (temp)
+msgstr ""
+
+<<<<<<< HEAD
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:75
+msgid "If a marketplace is not listed in your Amazon marketplaces, it's possible to :ref:`add a new marketplace <amazon/add-new-marketplace>`."
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:66
+msgid "Amazon.com.mx"
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:73
+msgid "Amazon.com.mx"
+>>>>>>> c2d81ac25 (temp)
+msgstr ""
+
+<<<<<<< HEAD
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:79
+#: ../../content/applications/sales/sales/amazon_connector/manage.rst:175
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:68
+msgid "US"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:68
+msgid "Amazon.com"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:72
+msgid "**Europe region**"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:74
+msgid "Germany"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:74
+msgid "Amazon.de"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:76
+msgid "Spain"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:76
+msgid "Amazon.es"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:78
+msgid "France"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:78
+msgid "Amazon.fr"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:80
+msgid "UK"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:80
+msgid "Amazon.co.uk"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:82
+msgid "Italy"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:82
+msgid "Amazon.it"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:84
+msgid "Netherlands"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:84
+msgid "Amazon.nl"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:88
+#: ../../content/applications/sales/sales/amazon_connector/manage.rst:132
+#: ../../content/applications/sales/sales/amazon_connector/update.rst:58
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:75
+msgid "US"
 msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:75
-msgid "If a marketplace is not listed in your Amazon marketplaces, it's possible to :ref:`add a new marketplace <amazon/add-new-marketplace>`."
+msgid "Amazon.com"
 msgstr ""
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:79
-#: ../../content/applications/sales/sales/amazon_connector/manage.rst:175
+msgid "**Europe region**"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:81
+msgid "Germany"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:81
+msgid "Amazon.de"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:83
+msgid "Spain"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:83
+msgid "Amazon.es"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:85
+msgid "France"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:85
+msgid "Amazon.fr"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:87
+msgid "UK"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:87
+msgid "Amazon.co.uk"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:89
+msgid "Italy"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:89
+msgid "Amazon.it"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:91
+msgid "Netherlands"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:91
+msgid "Amazon.nl"
+msgstr ""
+
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:95
+#: ../../content/applications/sales/sales/amazon_connector/manage.rst:132
+#: ../../content/applications/sales/sales/amazon_connector/update.rst:58
+>>>>>>> c2d81ac25 (temp)
 #: ../../content/applications/sales/sales/ebay_connector/linking_listings.rst:16
 #: ../../content/applications/sales/sales/ebay_connector/manage.rst:30
 #: ../../content/applications/sales/sales/ebay_connector/troubleshooting.rst:8
 msgid ":doc:`setup`"
 msgstr ""
 
+<<<<<<< HEAD
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:80
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:155
+||||||| parent of c2d81ac25 (temp)
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:89
+#: ../../content/applications/sales/sales/amazon_connector/setup.rst:119
+#: ../../content/applications/sales/sales/amazon_connector/update.rst:59
+=======
+#: ../../content/applications/sales/sales/amazon_connector/features.rst:96
+#: ../../content/applications/sales/sales/amazon_connector/setup.rst:119
+#: ../../content/applications/sales/sales/amazon_connector/update.rst:59
+>>>>>>> c2d81ac25 (temp)
 #: ../../content/applications/sales/sales/ebay_connector/linking_listings.rst:17
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:17
 #: ../../content/applications/sales/sales/ebay_connector/troubleshooting.rst:9
